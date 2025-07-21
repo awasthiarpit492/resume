@@ -13,17 +13,21 @@
       margin: 2rem auto;
       padding: 1rem;
     }
+
     h1, h2, h3 {
       color: #ffffff;
       border-bottom: 1px solid #333;
       padding-bottom: 0.3rem;
     }
+
     a {
       color: #80cbc4;
     }
+
     ul {
       padding-left: 1.25rem;
     }
+
     .download-link {
       display: inline-block;
       margin-top: 2rem;
@@ -34,13 +38,44 @@
       border-radius: 4px;
       transition: background-color 0.3s;
     }
+
     .download-link:hover {
       background-color: #1565c0;
     }
+
     .contact-info {
       margin-bottom: 1rem;
       color: #aaa;
     }
+
+    .exp-block {
+      margin-bottom: 1.5rem;
+    }
+
+    .exp-title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .bar-container {
+      height: 8px;
+      background-color: #333;
+      border-radius: 4px;
+      overflow: hidden;
+      margin: 0.5rem 0 1rem 0;
+    }
+
+    .bar-fill {
+      height: 100%;
+      background-color: #80cbc4;
+      border-radius: 4px;
+    }
+
+    .exp-company {
+      font-weight: bold;
+    }
+
     hr {
       border: none;
       border-top: 1px solid #333;
@@ -49,28 +84,104 @@
   </style>
 </head>
 <body>
+
   <h1>Arpit Awasthi</h1>
   <div class="contact-info">
-    📧 awasthiarpit98@gmail.com | 📞 +91 9350631028 | 📍 Gurgaon, HR <br>
-    🔗 <a href="https://www.linkedin.com/in/arpit-awasthi492/" target="_blank">linkedin.com/in/arpit-awasthi492</a>
+    📧 awasthiarpit98@gmail.com | 📞 +91 9350631028 | 📍 Gurgaon, HR |
+    <a href="https://www.linkedin.com/in/arpit-awasthi492/" target="_blank" title="LinkedIn">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="#0e76a8" xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle;">
+        <path d="M22.23 0H1.77C0.79 0 0 0.77 0 1.73v20.54C0 23.23 0.79 24 1.77 24H22.23c0.98 0 1.77-0.77 1.77-1.73V1.73C24 0.77 23.21 0 22.23 0zM7.08 20.45H3.56V9h3.52v11.45zM5.32 7.58C4.2 7.58 3.3 6.66 3.3 5.55c0-1.12 0.9-2.03 2.02-2.03s2.02 0.91 2.02 2.03c0 1.11-0.9 2.03-2.02 2.03zM20.45 20.45h-3.5v-5.57c0-1.33-0.03-3.04-1.85-3.04-1.85 0-2.14 1.44-2.14 2.94v5.67h-3.5V9h3.36v1.56h.05c0.47-0.89 1.61-1.84 3.31-1.84 3.54 0 4.2 2.33 4.2 5.36v6.37z"/>
+      </svg>
+    </a>
   </div>
 
   <h2>Work Experience</h2>
 
-  <h3>Mobikwik – DevOps Engineer (04/2023 – Present, Gurgaon, HR)</h3>
+  <div class="exp-block">
+    <div class="exp-title">
+      <div class="exp-company">Mobikwik – DevOps Engineer</div>
+      <div>(04/2023 – Present, Gurgaon, HR)</div>
+    </div>
+    <div class="bar-container">
+      <div class="bar-fill" style="width: 100%;"></div>
+    </div>
+    <ul>
+      <li>Maintained and optimized Jenkins pipelines for build, test, and deployment.</li>
+      <li>Managed multi-namespace environments on Amazon EKS; onboarded services via Terraform.</li>
+      <li>Set up monitoring with New Relic and Zabbix; integrated with PagerDuty.</li>
+      <li>Performed vulnerability assessments with Nessus; automated patching with AWS Systems Manager.</li>
+      <li>Built Grafana dashboards for Nginx performance monitoring.</li>
+      <li>Modernized deployments by containerizing EC2-hosted apps.</li>
+      <li>Developed automation scripts for log syncing, alerting, and self-healing systems.</li>
+    </ul>
+  </div>
+
+  <div class="exp-block">
+    <div class="exp-title">
+      <div class="exp-company">Kanso Cloud – Cloud Engineer</div>
+      <div>(05/2021 – 03/2023, Udaipur, RJ)</div>
+    </div>
+    <div class="bar-container">
+      <div class="bar-fill" style="width: 93%;"></div>
+    </div>
+    <ul>
+      <li>Managed 10+ AWS accounts; automated with Ansible modules.</li>
+      <li>Created infra alerts using Datadog and CloudWatch.</li>
+      <li>Migrated apps from EKS to ECS Fargate to optimize costs.</li>
+      <li>Managed Amazon WorkSpaces for 200+ users; oversaw app management and permissions.</li>
+      <li>Performed root cause analysis for downtimes.</li>
+    </ul>
+  </div>
+
+  <div class="exp-block">
+    <div class="exp-title">
+      <div class="exp-company">Virtual Analytics – Cloud Engineer</div>
+      <div>(03/2021 – 04/2021, Noida, UP)</div>
+    </div>
+    <div class="bar-container">
+      <div class="bar-fill" style="width: 15%;"></div>
+    </div>
+    <ul>
+      <li>Maintained Linux/Windows infrastructure for 24/7 uptime.</li>
+      <li>Monitored system performance; implemented patches.</li>
+      <li>Automated admin tasks using scripts.</li>
+    </ul>
+  </div>
+
+  <div class="exp-block">
+    <div class="exp-title">
+      <div class="exp-company">Infinity Ventures – System Administrator</div>
+      <div>(10/2020 – 02/2021, Remote)</div>
+    </div>
+    <div class="bar-container">
+      <div class="bar-fill" style="width: 25%;"></div>
+    </div>
+    <ul>
+      <li>Built and maintained Windows/Linux servers.</li>
+      <li>Developed CI/CD pipelines with Jenkins and Docker.</li>
+      <li>Created scripts and used HAProxy, Postman, AWS CI/CD stack.</li>
+    </ul>
+  </div>
+
+  <h2>Education</h2>
+  <p><strong>Raj Kumar Goel Institute of Technology & Management</strong> — B.Tech in Information Technology (2016–2020), Ghaziabad, UP</p>
+
+  <h2>Skills</h2>
   <ul>
-    <li>Maintained and optimized Jenkins pipelines for build, test, and deployment.</li>
-    <li>Managed multi-namespace environments on Amazon EKS; onboarded services via Terraform.</li>
-    <li>Set up monitoring with New Relic and Zabbix; integrated with PagerDuty.</li>
-    <li>Performed vulnerability assessments with Nessus; automated patching with AWS Systems Manager.</li>
-    <li>Built Grafana dashboards for Nginx performance monitoring.</li>
-    <li>Modernized deployments by containerizing EC2-hosted apps.</li>
-    <li>Developed automation scripts for log syncing, alerting, and self-healing systems.</li>
+    <li><strong>Cloud:</strong> AWS, Azure</li>
+    <li><strong>DevOps Stack:</strong> Docker, Kubernetes, Ansible, Git, GitLab, Jenkins, Github Actions, Terraform, OpenShift</li>
+    <li><strong>Databases:</strong> MySQL, MongoDB</li>
+    <li><strong>Languages:</strong> Python, Shell Scripting</li>
+    <li><strong>Monitoring:</strong> CloudWatch, Datadog, ELK Stack, Prometheus, Grafana, NewRelic, Zabbix</li>
   </ul>
 
-  <h3>Kanso Cloud – Cloud Engineer (05/2021 – 03/2023, Udaipur, RJ)</h3>
+  <h2>Certifications</h2>
   <ul>
-    <li>Managed 10+ AWS accounts; automated with Ansible modules.</li>
-    <li>Created infra alerts using Datadog and CloudWatch.</li>
-    <li>Migrated apps from EKS to ECS Fargate to optimize costs.</li>
-    <li>Managed Amazon WorkSpaces for 200+ users; oversaw app management and per
+    <li>AWS Certified Solutions Architect — Associate (ID: Z89QROBJPIRAQIIS)</li>
+    <li>Red Hat Certified System Administrator (RHCSA) (ID: 220-036-693)</li>
+    <li>Red Hat Certified Specialist in Containers and Kubernetes (EX180) (ID: 220-036-693)</li>
+  </ul>
+
+  <a class="download-link" href="ArpitAwasthi_DevOps_V6.pdf" download>📄 Download Resume (PDF)</a>
+</body>
+</html>
