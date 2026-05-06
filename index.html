@@ -1,216 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arpit Awasthi - Resume</title>
-    <style>
-        body {
-            background-color: #111111;
-            color: #e0e0e0;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 40px 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        h1 {
-            color: #ffffff;
-            font-size: 2.2rem;
-            margin-bottom: 10px;
-        }
-        .contact-info {
-            font-size: 0.9rem;
-            color: #a0a0a0;
-            margin-bottom: 30px;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
-        }
-        .contact-info a {
-            color: #a0a0a0;
-            text-decoration: none;
-        }
-        .contact-info a:hover {
-            color: #64ffda;
-        }
-        h2 {
-            color: #ffffff;
-            border-bottom: 1px solid #333;
-            padding-bottom: 10px;
-            margin-top: 40px;
-            margin-bottom: 20px;
-            font-size: 1.4rem;
-        }
-        .job {
-            margin-bottom: 30px;
-        }
-        .job-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: baseline;
-            margin-bottom: 5px;
-            flex-wrap: wrap;
-        }
-        .job-header h3 {
-            color: #ffffff;
-            margin: 0;
-            font-size: 1.1rem;
-        }
-        .job-header span {
-            color: #a0a0a0;
-            font-size: 0.9rem;
-        }
-        .divider {
-            height: 4px;
-            background-color: #333;
-            border-radius: 2px;
-            margin-bottom: 15px;
-            display: flex;
-        }
-        .divider-fill {
-            height: 100%;
-            background-color: #64ffda;
-            border-radius: 2px;
-        }
-        ul {
-            padding-left: 20px;
-            margin-top: 0;
-        }
-        li {
-            margin-bottom: 8px;
-            font-size: 0.95rem;
-            color: #cccccc;
-        }
-        .skills p, .education p, .certifications p {
-            margin: 6px 0;
-            font-size: 0.95rem;
-            color: #cccccc;
-        }
-        .btn {
-            display: inline-block;
-            background-color: #2196f3;
-            color: #ffffff;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 4px;
-            margin-top: 40px;
-            font-size: 0.95rem;
-            font-weight: 500;
-        }
-        .btn:hover {
-            background-color: #1976d2;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Arpit Awasthi - DevOps Engineer</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #e0e0e0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    h1, h2, h3 { color: #ffffff; border-bottom: 1px solid #333; padding-bottom: 0.3rem; }
+    a { color: #80cbc4; }
+    ul { padding-left: 1.25rem; }
+    .download-link {
+      display: inline-block; margin-top: 2rem; padding: 0.6rem 1.2rem;
+      background-color: #1e88e5; color: #ffffff; text-decoration: none;
+      border-radius: 4px; transition: background-color 0.3s;
+    }
+    .download-link:hover { background-color: #1565c0; }
+    .contact-info { margin-bottom: 1rem; color: #aaa; }
+    .summary {
+      color: #ccc; margin-bottom: 1.5rem; font-style: italic;
+      border-left: 3px solid #80cbc4; padding-left: 0.75rem;
+    }
+    .exp-block { margin-bottom: 1.5rem; }
+    .exp-title { display: flex; justify-content: space-between; align-items: center; }
+    .bar-container {
+      height: 8px; background-color: #333; border-radius: 4px;
+      overflow: hidden; margin: 0.5rem 0 1rem 0;
+    }
+    .bar-fill { height: 100%; background-color: #80cbc4; border-radius: 4px; }
+    .exp-company { font-weight: bold; }
+    hr { border: none; border-top: 1px solid #333; margin: 1rem 0; }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Arpit Awasthi</h1>
-        <div class="contact-info">
-            <span>📍 Gurgaon, HR</span>
-            <span>✉️ <a href="mailto:awasthiarpit98@gmail.com">awasthiarpit98@gmail.com</a></span>
-            <span>📞 +91 9350631028</span>
-            <span>🔗 <a href="https://linkedin.com/in/arpit-awasthi492" target="_blank">in/arpit-awasthi492</a></span>
-        </div>
 
-        <h2>Summary</h2>
-        <p style="font-size: 0.95rem; color: #cccccc;">Cloud & DevOps Engineer with 5+ years of experience architecting resilient, multi-cloud infrastructure across AWS, GCP, and Azure. Expert in modernizing legacy systems through containerization and managing complex Kubernetes ecosystems. Proven track record of accelerating software delivery by engineering robust, automated CI/CD pipelines.</p>
+  <h1>Arpit Awasthi</h1>
+  <div class="contact-info">
+    📧 awasthiarpit98@gmail.com | 📞 +91 9350631028 | 📍 Gurgaon, HR |
+    <a href="https://www.linkedin.com/in/arpit-awasthi492/" target="_blank" title="LinkedIn">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="#0e76a8" xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle;">
+        <path d="M22.23 0H1.77C0.79 0 0 0.77 0 1.73v20.54C0 23.23 0.79 24 1.77 24H22.23c0.98 0 1.77-0.77 1.77-1.73V1.73C24 0.77 23.21 0 22.23 0zM7.08 20.45H3.56V9h3.52v11.45zM5.32 7.58C4.2 7.58 3.3 6.66 3.3 5.55c0-1.12 0.9-2.03 2.02-2.03s2.02 0.91 2.02 2.03c0 1.11-0.9 2.03-2.02 2.03zM20.45 20.45h-3.5v-5.57c0-1.33-0.03-3.04-1.85-3.04-1.85 0-2.14 1.44-2.14 2.94v5.67h-3.5V9h3.36v1.56h.05c0.47-0.89 1.61-1.84 3.31-1.84 3.54 0 4.2 2.33 4.2 5.36v6.37z"/>
+      </svg>
+    </a>
+  </div>
 
-        <h2>Work Experience</h2>
+  <div class="summary">
+    Cloud &amp; DevOps Engineer with 5+ years of experience architecting resilient, multi-cloud infrastructure across AWS, GCP, and Azure. Expert in modernizing legacy systems through containerization and managing complex Kubernetes ecosystems. Proven track record of accelerating software delivery by engineering robust, automated CI/CD pipelines.
+  </div>
 
-        <div class="job">
-            <div class="job-header">
-                <h3>CSI Global (HSBC Bank) – DevOps Engineer</h3>
-                <span>(11/2025 – Present, Hyderabad)</span>
-            </div>
-            <div class="divider"><div class="divider-fill" style="width: 100%;"></div></div>
-            <ul>
-                <li>Led a 7-member engineering team to design and implement an end-to-end Prometheus/Grafana observability stack across Google Cloud Platform (GCP) and Internal Kubernetes Platform (IKP).</li>
-                <li>Architected centralized monitoring for diverse infrastructure (K8s, PostgreSQL, Elasticsearch, Kafka, Zookeeper) and instrumented Pega applications with JMX sidecars for deep JVM-level insights.</li>
-                <li>Built unified, single-pane-of-glass Grafana dashboards across complex environments (India, UK & China deployments), providing real-time visibility into Kubernetes cluster health and pod-level utilization to reduce MTTR.</li>
-                <li>Streamlined CI/CD workflows by authoring custom Helm charts for the automated and reliable deployment of the entire observability infrastructure, including all exporters and sidecars.</li>
-            </ul>
-        </div>
+  <h2>Work Experience</h2>
 
-        <div class="job">
-            <div class="job-header">
-                <h3>Mobikwik – DevOps Engineer</h3>
-                <span>(04/2023 – 10/2025, Gurgaon, HR)</span>
-            </div>
-            <div class="divider"><div class="divider-fill" style="width: 100%;"></div></div>
-            <ul>
-                <li>Maintained and optimized Jenkins pipelines for seamless build, test, and deployment processes, ensuring smooth and efficient software releases.</li>
-                <li>Managed multi-namespace staging and production environments on Amazon EKS, ensuring high availability and scalability.</li>
-                <li>Onboarded new services to the EKS cluster via Terraform, streamlining the provisioning and configuration of resources.</li>
-                <li>Implemented and maintained monitoring solutions using New Relic and Zabbix and integrated these tools with Pagerduty to proactively identify and resolve performance bottlenecks, latency issues and errors in applications and infrastructure.</li>
-                <li>Conducted regular vulnerability assessments using Nessus, identifying and prioritizing security risks across the infrastructure.</li>
-                <li>Leveraged AWS Systems Manager to automate patch management processes ensuring compliance with best security practices.</li>
-                <li>Built custom Grafana dashboards to monitor Nginx performance like request rate, error rate, upstream response time etc.</li>
-                <li>Modernized application deployments by containerizing the EC2-hosted applications.</li>
-                <li>Developed and implemented automation scripts to streamline routine tasks to improve efficiency and reduce manual efforts like app logs syncing to S3 bucket, nginx alerts, self-healing system, clearing disk space etc.</li>
-            </ul>
-        </div>
-
-        <div class="job">
-            <div class="job-header">
-                <h3>Kanso Cloud – Cloud Engineer</h3>
-                <span>(03/2021 – 03/2026, RJ)</span>
-            </div>
-            <div class="divider"><div class="divider-fill" style="width: 100%;"></div></div>
-            <ul>
-                <li>Reduced the average response time through automation of manual processes using Ansible modules.</li>
-                <li>Created overall infra alerts using datadog and cloudwatch, leading to an improvement in the uptime of the services.</li>
-                <li>Migrated applications from EKS to ECS Fargate to reduce infrastructure costs, optimizing resource allocation for various workloads.</li>
-                <li>Managed the virtual desktop infrastructure (VDI) for 200+ users on the Element5 project using Amazon WorkSpaces.</li>
-                <li>Acted as the single point of contact for troubleshooting issues in collaboration with the development team, overseeing application management within the VDI and configuring appropriate permissions to ensure security and functionality.</li>
-                <li>Conducted root cause analysis for service downtimes through comprehensive investigations, enabling continuous development efforts and significantly reducing future incidents.</li>
-            </ul>
-        </div>
-
-        <div class="job">
-            <div class="job-header">
-                <h3>Infinity Ventures – System Administrator</h3>
-                <span>(10/2020 – 05/2021, Remote)</span>
-            </div>
-            <div class="divider"><div class="divider-fill" style="width: 100%;"></div></div>
-            <ul>
-                <li>Build and maintain servers running Windows and Linux</li>
-                <li>Developed and maintained CI/CD pipelines via Jenkins</li>
-                <li>Built and deployed Docker containers for implementing microservice architecture.</li>
-                <li>Created bash scripts for building and deploying microservices.</li>
-                <li>Configured reverse proxy load balancer using HAProxy.</li>
-                <li>Used API testing tools like Postman and Newman to automate and execute the test cases.</li>
-                <li>Hosted a static website on AWS S3 and managed S3 buckets and its policies.</li>
-                <li>Setup CI/CD pipeline on AWS using AWS CodeCommit, CodeArtifact, CodeBuild, CodeDeploy, CodePipeline.</li>
-            </ul>
-        </div>
-
-        <h2>Education</h2>
-        <div class="education">
-            <p><strong>B.Tech in Information Technology</strong></p>
-            <p>Dr. A.P.J. Abdul Kalam Technical University Ghaziabad, UP (2016-2020)</p>
-        </div>
-
-        <h2>Skills</h2>
-        <div class="skills">
-            <p><strong>Cloud Platform:</strong> AWS, Azure, GCP</p>
-            <p><strong>DevOps Stack:</strong> Docker, Kubernetes, Ansible, Git, Jenkins, Github Actions, Terraform, OpenShift</p>
-            <p><strong>Databases:</strong> MySQL, MongoDB, Postgres, Redis</p>
-            <p><strong>Languages:</strong> Python, Shell Scripting, Groovy</p>
-            <p><strong>Monitoring Tools:</strong> CloudWatch, Datadog, ELK Stack, Prometheus, Grafana, NewRelic, Zabbix</p>
-        </div>
-
-        <h2>Certifications</h2>
-        <div class="certifications">
-            <p>• AWS Certified Solutions Architect - Associate (Credential ID: Z89QROBJPIRAQIIS)</p>
-            <p>• Red Hat Certified System Administrator (RHCSA) (Credential ID: 220-036-693)</p>
-            <p>• Red Hat Certified Specialist in Containers and Kubernetes (EX180) (Credential ID: 220-036-693)</p>
-        </div>
-
-        <a href="ArpitAwasthi_DevOps_V6.pdf" class="btn" target="_blank">📄 Download Resume (PDF)</a>
+  <div class="exp-block">
+    <div class="exp-title">
+      <div class="exp-company">CSI Global (HSBC Bank) – DevOps Engineer</div>
+      <div>(11/2025 – Present, Hyderabad, TS)</div>
     </div>
+    <div class="bar-container"><div class="bar-fill" style="width: 100%;"></div></div>
+    <ul>
+      <li>Led a 7-member engineering team to design and implement an end-to-end Prometheus/Grafana observability stack across GCP and Internal Kubernetes Platform (IKP).</li>
+      <li>Architected centralized monitoring for diverse infrastructure (K8s, PostgreSQL, Elasticsearch, Kafka, Zookeeper) and instrumented Pega applications with JMX sidecars for deep JVM-level insights.</li>
+      <li>Built unified, single-pane-of-glass Grafana dashboards across India, UK &amp; China deployments, providing real-time visibility into Kubernetes cluster health and pod-level utilization to reduce MTTR.</li>
+      <li>Streamlined CI/CD workflows by authoring custom Helm charts for automated and reliable deployment of the entire observability infrastructure, including all exporters and sidecars.</li>
+    </ul>
+  </div>
+
+  <div class="exp-block">
+    <div class="exp-title">
+      <div class="exp-company">Mobikwik – DevOps Engineer</div>
+      <div>(04/2023 – 10/2025, Gurgaon, HR)</div>
+    </div>
+    <div class="bar-container"><div class="bar-fill" style="width: 90%;"></div></div>
+    <ul>
+      <li>Maintained and optimized Jenkins pipelines for seamless build, test, and deployment processes, ensuring smooth and efficient software releases.</li>
+      <li>Managed multi-namespace staging and production environments on Amazon EKS, ensuring high availability and scalability.</li>
+      <li>Onboarded new services to the EKS cluster via Terraform, streamlining the provisioning and configuration of resources.</li>
+      <li>Implemented and maintained monitoring solutions using New Relic and Zabbix; integrated with PagerDuty to proactively identify and resolve performance bottlenecks, latency issues, and errors.</li>
+      <li>Conducted regular vulnerability assessments using Nessus, identifying and prioritizing security risks across the infrastructure.</li>
+      <li>Leveraged AWS Systems Manager to automate patch management processes, ensuring compliance with best security practices.</li>
+      <li>Built custom Grafana dashboards to monitor Nginx performance (request rate, error rate, upstream response time).</li>
+      <li>Modernized application deployments by containerizing EC2-hosted applications.</li>
+      <li>Developed automation scripts for log syncing to S3, Nginx alerts, self-healing systems, and disk space management.</li>
+    </ul>
+  </div>
+
+  <div class="exp-block">
+    <div class="exp-title">
+      <div class="exp-company">Kanso Cloud – Cloud Engineer</div>
+      <div>(05/2021 – 03/2023, Udaipur, RJ)</div>
+    </div>
+    <div class="bar-container"><div class="bar-fill" style="width: 75%;"></div></div>
+    <ul>
+      <li>Reduced average response time through automation of manual processes using Ansible modules.</li>
+      <li>Created overall infra alerts using Datadog and CloudWatch, improving service uptime.</li>
+      <li>Migrated applications from EKS to ECS Fargate to reduce infrastructure costs and optimize resource allocation.</li>
+      <li>Managed virtual desktop infrastructure (VDI) for 200+ users on the Element5 project using Amazon WorkSpaces.</li>
+      <li>Acted as single point of contact for troubleshooting; oversaw application management within the VDI and configured appropriate permissions.</li>
+      <li>Conducted root cause analysis for service downtimes, enabling continuous improvement and significantly reducing future incidents.</li>
+    </ul>
+  </div>
+
+  <div class="exp-block">
+    <div class="exp-title">
+      <div class="exp-company">Infinity Ventures – System Administrator</div>
+      <div>(10/2020 – 05/2021, Remote)</div>
+    </div>
+    <div class="bar-container"><div class="bar-fill" style="width: 25%;"></div></div>
+    <ul>
+      <li>Built and maintained servers running Windows and Linux.</li>
+      <li>Developed and maintained CI/CD pipelines via Jenkins; built and deployed Docker containers for microservice architecture.</li>
+      <li>Configured reverse proxy load balancer using HAProxy.</li>
+      <li>Used Postman and Newman to automate and execute API test cases.</li>
+      <li>Hosted a static website on AWS S3; set up CI/CD pipeline using AWS CodeCommit, CodeBuild, CodeDeploy, and CodePipeline.</li>
+    </ul>
+  </div>
+
+  <h2>Education</h2>
+  <p><strong>Dr. A.P.J. Abdul Kalam Technical University</strong> — B.Tech in Information Technology (2016–2020), Ghaziabad, UP</p>
+
+  <h2>Skills</h2>
+  <ul>
+    <li><strong>Cloud:</strong> AWS, Azure, GCP</li>
+    <li><strong>DevOps Stack:</strong> Docker, Kubernetes, Ansible, Git, Jenkins, Github Actions, Terraform, OpenShift</li>
+    <li><strong>Databases:</strong> MySQL, MongoDB, PostgreSQL, Redis</li>
+    <li><strong>Languages:</strong> Python, Shell Scripting, Groovy</li>
+    <li><strong>Monitoring:</strong> CloudWatch, Datadog, ELK Stack, Prometheus, Grafana, NewRelic, Zabbix</li>
+  </ul>
+
+  <h2>Certifications</h2>
+  <ul>
+    <li>AWS Certified Solutions Architect — Associate (ID: Z89QROBJPIRAQIIS)</li>
+    <li>Red Hat Certified System Administrator (RHCSA) (ID: 220-036-693)</li>
+    <li>Red Hat Certified Specialist in Containers and Kubernetes (EX180) (ID: 220-036-693)</li>
+  </ul>
+
+  <a class="download-link" href="ArpitAwasthi_DevOps_v10.pdf" download>📄 Download Resume (PDF)</a>
 </body>
 </html>
